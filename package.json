@@ -1,0 +1,33 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremysiedzik/graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremysiedzik/graphql/issues"
+  },
+  "homepage": "https://github.com/jeremysiedzik/graphql#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-node5": "^12.0.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "faker": "^4.1.0",
+    "graphiql": "^0.11.5",
+    "lodash": "^4.17.4",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.8"
+  }
+}
