@@ -5,7 +5,7 @@ import Faker from 'faker';
 const Conn = new Sequelize(
   'graphql',
   'root',
-  'iatem13',
+  'secrets',
   {
       dialect: 'mysql',
       host: 'localhost',
